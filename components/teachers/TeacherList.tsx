@@ -1,5 +1,5 @@
-import { clerkClient, currentUser } from "@clerk/nextjs/server";
-import Image from "next/image";
+import { currentUser } from "@clerk/nextjs/server";
+//import Image from "next/image";
 import React from "react";
 
 export const TeacherList = async function Columns() {
