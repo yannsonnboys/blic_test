@@ -19,7 +19,7 @@ import { Input } from "@/components/ui/input";
 import axios from "axios";
 import toast from "react-hot-toast";
 import SectionList from "./SectionList";
-import { list } from "postcss";
+//import { list } from "postcss";
 
 const formSchema = z.object({
   title: z.string().min(2, {

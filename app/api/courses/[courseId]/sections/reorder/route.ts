@@ -23,7 +23,7 @@ export const PUT = async (
       return new NextResponse("Course Not Found", { status: 404 });
     }
 
-    for (let item of list) {
+    for (const item of list) {
       await db.section.update({
         where: {
           id: item.id,

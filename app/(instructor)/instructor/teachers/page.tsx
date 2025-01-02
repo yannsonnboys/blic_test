@@ -1,6 +1,6 @@
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
-import { db } from "@/lib/db";
+//import { db } from "@/lib/db";
 import { TeacherList } from "@/components/teachers/TeacherList";
 
 const TeachersPage = async () => {

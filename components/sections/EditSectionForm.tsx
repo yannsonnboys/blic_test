@@ -6,9 +6,9 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import Link from "next/link";
 import axios from "axios";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
-import { ArrowLeft, Loader2, Trash } from "lucide-react";
+import { ArrowLeft, Loader2 } from "lucide-react";
 import MuxPlayer from "@mux/mux-player-react";
 
 import { Button } from "@/components/ui/button";
@@ -23,7 +23,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import RichEditor from "@/components/custom/RichEditor";
-import { ComboBox } from "@/components/custom/ComboBox";
+//import { ComboBox } from "@/components/custom/ComboBox";
 import FileUpload from "../custom/FileUpload";
 import { Switch } from "@/components/ui/switch";
 import ResourceForm from "./ResourceForm";

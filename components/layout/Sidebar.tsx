@@ -1,6 +1,6 @@
 "use client";
 
-import { BarChart4, MonitorPlay, User2, UserPen } from "lucide-react";
+import { BarChart4, MonitorPlay, UserPen } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 

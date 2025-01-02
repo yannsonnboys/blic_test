@@ -6,7 +6,7 @@ import { db } from "@/lib/db";
 //import SectionMenu from "@/components/layout/SectionMenu";
 import ReadText from "@/components/custom/ReadText";
 import SectionMenu from "@/components/layout/SectionMenu";
-import Link from "next/link";
+//import Link from "next/link";
 
 const CourseOverview = async ({ params }: { params: { courseId: string } }) => {
   const course = await db.course.findUnique({
