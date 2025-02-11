@@ -5,13 +5,13 @@ function BannerPic() {
   return (
     <div className="px-4 py-3 flex flex-col gap-4">
       <div className="text-4xl font-bold text-[#FDAB04] text-center">
-        Welcom to BLIC
+        Welcome to BLIC
       </div>
       <h4 className="text-2xl font-bold text-center text-[#2446aa]">
         Baobab Language Institute of California
       </h4>
       <hr />
-      <div className="flex gap-4 justify-between">
+      <div className="flex gap-4 flex-wrap items-center justify-evenly">
         <Image
           src="/Pic1.jpg"
           alt="image"
